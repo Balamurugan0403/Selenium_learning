@@ -17,6 +17,7 @@ public class TestDemo {
 			String pagesourcelen=driver.getPageSource();
 			System.out.println("page source length:"+pagesourcelen.length());
 //			driver.getPageSource();
+			System.out.println("new source length:"+pagesourcelen.charAt(7));
 			
 			driver.quit(); 
 
